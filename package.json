@@ -4,6 +4,8 @@
   "description": "Simple key-value storage with support for multiple backends",
   "main": "src/index.js",
   "scripts": {
+    "build:docker": "node scripts/build.js",
+    "run:docker": "node scripts/run.js",
     "test": "xo && nyc ava test/keyv.js",
     "test:full": "xo && nyc ava --serial",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
