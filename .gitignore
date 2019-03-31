@@ -1,10 +1,5 @@
 test/testdb.sqlite
 
-## Node
-
-#npm5
-package-lock.json
-
 #yarn
 yarn.lock
 
